@@ -1,0 +1,11 @@
+﻿@page
+<div class="container" ng-app="chatApp">
+    <div ng-view></div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/angular/angular.js"></script>
+    <script src="~/lib/angular-route/angular-route.js"></script>
+    <script src="~/lib/signalr/signalr.js"></script>    
+    <script src="~/js/chat.js" asp-append-version="true"></script>
+}
